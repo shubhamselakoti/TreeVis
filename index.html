@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Binary Tree Visualization</title>
+  </head>
+  <body>
+
+    <h1 id="title">Tree Visualizer</h1>
+    <header>
+      <label for="array-input">Array:</label>
+      <input type="text" id="array-input" name="array" />
+
+      <label for="addElements">Add Element: </label>
+      <input type="text" id="addElements" name="add" autocomplete="off"/>
+      <button id="add">ADD</button>
+
+      <label for="removeElements">Remove Element: </label>
+      <input type="text" id="removeElements" name="remove" autocomplete="off"/>
+      <button id="remove">Remove</button>
+
+      <div id="options">
+        <button onclick="treeAndArray()">Binary Tree Visualization</button>
+        <button onclick="heapify()">Max-Heap Visualization</button>
+        <button onclick="min_heapify()">Min-Heap Visualization</button>
+        <button onclick="createBinarySearchTree()">Binary Search Tree Visualization</button>
+      </div>
+    </header>
+
+    <div id="blurb">
+      <div id="visual-title"></div>
+      <div id="instructions"></div>
+    </div>
+    <div id="binary-tree"></div>
+    <div id="array-visual"></div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./js/nodes.js"></script>
+    <script src="./js/heap.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
