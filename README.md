@@ -1,3 +1,3 @@
 # TreeVis
 
-<a href="https://shubhamselakoti.github.io/TreeVis/">Live Project</a>
+<a href="https://shubhamselakoti.github.io/TreeVis/" target="_blank">Live Project</a>
